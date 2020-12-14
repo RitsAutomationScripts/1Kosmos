@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test name="UITest(failed)">
+    <classes>
+      <class name="ApiAutomation.testRun.myPedia">
+        <methods>
+          <include name="dropDownCheck"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- ApiAutomation.testRun.myPedia -->
+    </classes>
+  </test> <!-- UITest(failed) -->
+</suite> <!-- Failed suite [Suite] -->
